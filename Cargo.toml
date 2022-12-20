@@ -1,6 +1,6 @@
 [package]
 name = "dyncomp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Quique Kessler Martínez <qkessler@gmail.com>"]
 description = "Provides context and project aware aliases for common used commands."
