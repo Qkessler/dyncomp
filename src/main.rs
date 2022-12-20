@@ -58,7 +58,12 @@ fn pull_config(config_file: Result<File>) -> HashMap<String, String> {
 
 fn main() {
     let local_config = pull_config(File::open(Path::new(LOCAL_CONFIG_FILE)));
-    dbg!(local_config);
+    let mut global_config = HashMap::from([]);
+    GLOBAL_CONFIG_FILES
+        .iter()
+        .for_each(|config| global_config.extend(pull_config(File::open(Path::new(config)))));
+    global_config.extend(local_config);
+    dbg!(global_config);
 }
 
 #[cfg(test)]
