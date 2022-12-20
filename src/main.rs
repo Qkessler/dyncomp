@@ -1,9 +1,9 @@
 use std::{
     collections::{HashMap, HashSet, VecDeque},
     fs::File,
-    io::{Error, ErrorKind, Result},
+    io::Result,
     path::Path,
-    process::{Command, ExitStatus},
+    process::Command,
 };
 
 use clap::{arg, command};
