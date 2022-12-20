@@ -2,6 +2,14 @@
 name = "dyncomp"
 version = "0.1.0"
 edition = "2021"
+authors = ["Quique Kessler Martínez <qkessler@gmail.com>"]
+description = "Provides context and project aware aliases for common used commands."
+documentation = "https://github.com/Qkessler/dyncomp"
+homepage = "https://github.com/Qkessler/dyncomp"
+keywords = ["cli", "alias", "project"]
+license = "MIT"
+readme = "README.org"
+repository = "https://github.com/Qkessler/dyncomp"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

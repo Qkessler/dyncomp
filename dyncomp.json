@@ -1,6 +1,6 @@
 {
     "commands": {
         "run": "cargo run",
-        "test": "cargo test"
+        "test": "cargo test -- --nocapture"
     }
 }
