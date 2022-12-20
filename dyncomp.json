@@ -1,5 +1,6 @@
 {
     "commands": {
-        "run": "cargo run"
+        "run": "cargo run",
+        "test": "cargo test"
     }
 }
